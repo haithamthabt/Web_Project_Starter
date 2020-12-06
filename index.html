@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Web Project Starter</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- import Material Icons from Google Fonts -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <!-- import the Material stylesheet -->
+    <!--<link rel="stylesheet" href="main.css">  This is for testing before build, delete this line of code once you build -->
+     <link rel="stylesheet" href="./dist/main.css"> <!-- This is for build before build, remove comment after you build -->
+  </head>
+  <body class="mdc-typography">
+    <header class="mdc-top-app-bar">
+      <div class="mdc-top-app-bar__row">
+        <section class="mdc-top-app-bar__section mdc-top-app-bar__section--align-start">
+          <button class="material-icons mdc-top-app-bar__navigation-icon mdc-icon-button" aria-label="Open navigation menu">menu</button>
+          <span class="mdc-top-app-bar__title">Web Project Starter!</span>
+        </section>
+        <section class="mdc-top-app-bar__section mdc-top-app-bar__section--align-end" role="toolbar">
+          <button class="material-icons mdc-top-app-bar__action-item mdc-icon-button" aria-label="Favorite">favorite</button>
+          <button class="material-icons mdc-top-app-bar__action-item mdc-icon-button" aria-label="Search">search</button>
+          <button class="material-icons mdc-top-app-bar__action-item mdc-icon-button" aria-label="Options">more_vert</button>
+        </section>
+      </div>
+    </header>
+
+    <!-- Apply Material headline3 style to this <h1> element -->
+    <h1 class="mdc-typography--headline3">Hello, Web Project Starter!</h1>
+    <p>
+       A starter kit to get you up and running with NPM, webpack and Material Components for the Web. 
+    </p>
+    <p>
+      This small project has the base line of almost every web project. One of the hardest thing to do is configuring webpack; however, this project has webpack already configured. 
+   </p>
+   <p>
+    In order for this project to work proberly, the versions of all the dependecies are all compatable and working with each other. Do Not upgrade to any other versions because this will not work and you will need to reconfigure it all from the bottom up.
+ </p>
+
+    <br>
+    <button class="mdc-button mdc-button--raised">
+      Hello Space :)
+    </button>
+    
+    <!-- import the Material javascript file -->
+     <script src="./dist/main.js" async></script>  
+
+
+  </body>
+</html>
